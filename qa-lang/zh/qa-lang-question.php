@@ -52,6 +52,7 @@
 		'answer_q_popup' => '回答此问题',
 		'approve_button' => '批准',
 		'ask_button' => '提问',
+        'pay_ask_button' => '付费提问(接口申请中...)',
 		'ask_follow_from_a' => '您的追问应该与下面的内容相关:',
 		'ask_follow_title' => '追问一个相关问题',
 		'ask_limit' => '太多提问 - 请一小时后重试',

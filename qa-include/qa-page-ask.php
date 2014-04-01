@@ -200,6 +200,11 @@
 					(method_exists($editor, 'update_script') ? $editor->update_script('content') : '').'"',
 				'label' => qa_lang_html('question/ask_button'),
 			),
+            'payask' => array(
+                'tags' => 'onclick="qa_show_waiting_after(this, false); '.
+                    (method_exists($editor, 'update_script') ? $editor->update_script('content') : '').'"',
+                'label' => qa_lang_html('question/pay_ask_button'),
+            ),
 		),
 		
 		'hidden' => array(

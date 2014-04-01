@@ -407,6 +407,7 @@
 					
 				case 'custom_sidebar':
 					$value=qa_lang_html_sub('options/default_sidebar', qa_html(qa_opt('site_title')));
+                    $value .= "<br />如果您采用<span class='red'>付费</span>提问，将享受三小时内<b>专家解答</b>！本站正在申请 <b>支付宝担保交易接口</b>，为众生提供更佳服务 敬请期待 :)";
 					break;
 					
 				case 'editor_for_qs':
